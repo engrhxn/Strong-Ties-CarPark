@@ -44,8 +44,6 @@ public class ExitController
 
 	/**
 	 * This method used to set the state
-	 * 
-	 * @param idle
 	 */
 	private void setState(STATE newState) {
 		switch (newState) {
@@ -68,10 +66,8 @@ public class ExitController
 	}
 
 
-	/**
-	 * This method used to create the log file
-	 * 
-	 * @param message
+	/*
+	 * This method used to create the log file 
 	 */
 	private void log(String message) {
 		System.out.println("Exit Controller : " + message);
@@ -135,8 +131,6 @@ public class ExitController
 			// In-progress to do the further development
 		default:
 			break;
-		}
-		
-	}
-	
+		}		
+	}	
 }
