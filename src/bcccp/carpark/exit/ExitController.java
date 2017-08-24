@@ -128,7 +128,7 @@ public class ExitController
 			} else if (detectorId.equals(outsideSensor.getId()) && detected) {
 				setState(STATE.BLOCKED);
 			}
-			
+			//Further code development in process
 		default:
 			break;
 		}		
