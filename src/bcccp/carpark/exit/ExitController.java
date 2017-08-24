@@ -10,7 +10,7 @@ import bcccp.tickets.adhoc.IAdhocTicket;
 public class ExitController 
 		implements ICarSensorResponder,
 		           IExitController {
-	
+	//code for exit gate
 	private IGate exitGate;
 	private ICarSensor insideSensor;
 	private ICarSensor outsideSensor; 
